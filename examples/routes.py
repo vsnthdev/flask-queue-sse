@@ -1,3 +1,12 @@
+#
+#  Example usage of ServerSentEvents with Flask.
+#  Created On 21 November 2022
+#
+
+# to start the server, execute the following command 👇
+# python -m flask --app examples/routes run
+
+
 from flask import Flask
 from src import ServerSentEvents
 
