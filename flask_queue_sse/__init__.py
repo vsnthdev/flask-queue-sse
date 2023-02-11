@@ -29,7 +29,7 @@ class ServerSentEvents:
                 msg = queue.get()
                 yield msg
 
-                if search("event: end", msg):
+                if search("event: end", msg) or search("event: error", msg):
                     has_finished = True
 
         return Response(stream(), mimetype="text/event-stream")
