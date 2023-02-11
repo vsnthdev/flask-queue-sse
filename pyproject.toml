@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flask_queue_sse"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple implementation of Server-Sent Events for Flask that doesn't require Redis pub/sub."
 authors = ["Vasanth Developer <vsnthdev@gmail.com>"]
 readme = "README.md"
