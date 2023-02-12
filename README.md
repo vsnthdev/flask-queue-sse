@@ -1,6 +1,6 @@
-<h1 align="center">
-    <pre>flask-queue-sse</pre>
-</h1>
+<h5 align="center">
+    <img src="https://raw.githubusercontent.com/vsnthdev/flask-queue-sse/designs/header.png" alt="flask-queue-sse">
+</h5>
 <p align="center">
     <strong>
         A simple implementation of <a href="https://web.dev/eventsource-basics">Server-Sent Events</a> for <a
@@ -15,11 +15,11 @@
     <a target="_blank" rel="noopener" href="https://pypi.org/project/flask-queue-sse/#history">
         <img src="https://img.shields.io/pypi/dm/flask-queue-sse" alt="">
     </a>
-    <a href="https://github.com/vsnthdev/flask_queue_sse/issues">
-        <img src="https://img.shields.io/github/issues/vsnthdev/flask_queue_sse.svg?style=flat-square" alt="">
+    <a href="https://github.com/vsnthdev/flask-queue-sse/issues">
+        <img src="https://img.shields.io/github/issues/vsnthdev/flask-queue-sse.svg?style=flat-square" alt="">
     </a>
-    <a href="https://github.com/vsnthdev/flask_queue_sse/commits/main">
-        <img src="https://img.shields.io/github/last-commit/vsnthdev/flask_queue_sse.svg?style=flat-square" alt="">
+    <a href="https://github.com/vsnthdev/flask-queue-sse/commits/main">
+        <img src="https://img.shields.io/github/last-commit/vsnthdev/flask-queue-sse.svg?style=flat-square" alt="">
     </a>
 </p>
 <br>
