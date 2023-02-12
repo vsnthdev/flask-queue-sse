@@ -45,9 +45,45 @@ pip install flask-queue-sse
 
 Python 3.10 and above is required.
 
-<!-- quick start -->
+## 🚀 Quick start
 
-<!-- docs to build the project -->
+After installing `flask-queue-sse`, you can start using it in the following way:
+
+```python
+from flask import Flask
+from flask_queue_sse import ServerSentEvents
+
+app = Flask(__name__)
+
+# storing sse events channel in memory
+sse: ServerSentEvents = None
+
+@app.route("/subscribe")
+def subscribe():
+    # telling Python to refer to global sse variable
+    global sse
+
+    # create a new server sent events channel
+    sse = ServerSentEvents()
+
+    # create a new thread and do the actual work
+    # on it, pass sse instance to it for emitting events
+    
+    # when an "error" or "end" event is emitted
+    # the connection closes
+
+    # return it as a response
+    return sse.response()
+```
+
+Look into the [examples](https://github.com/vsnthdev/flask-queue-sse/tree/main/examples) or send me a message for any queries, questions or issues. I'm always happy to help 😊
+
+## 💻 Building the project
+
+- 📁 Clone the repository.
+- 🏝️ Enter into the clonned directory & run `python -m venv .` to create a virtual environment.
+- 🔨 Install dependencies by running `pip install -r ./requirements.txt`.
+- 👨‍💻 Run the examples or edit the codebase.
 
 ## 🏷️ Referrences
 

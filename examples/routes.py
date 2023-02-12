@@ -8,7 +8,7 @@
 
 
 from flask import Flask
-from src import ServerSentEvents
+from flask_queue_sse import ServerSentEvents
 
 app = Flask(__name__)
 sse: ServerSentEvents = None
